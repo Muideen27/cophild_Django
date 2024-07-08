@@ -1,1 +1,1 @@
-# Creating a SAIL Alumni website with Django 
+# Creating a SAIL Alumni website with Django framwork 

@@ -1,0 +1,19 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+env/
+.env/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore Django migration files
+*/migrations/*
+
+# Ignore all other system-specific files
+.DS_Store
+Thumbs.db
+

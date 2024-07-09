@@ -11,9 +11,13 @@ env/
 *.sqlite3
 
 # Ignore Django migration files
-*/migrations/*
+**/migrations/*.py
+**/migrations/*.pyc
 
 # Ignore all other system-specific files
 .DS_Store
 Thumbs.db
 
+# Ignore specific modified files
+SAIL_alumni/SAIL_alumni/settings.py
+SAIL_alumni/db.sqlite3

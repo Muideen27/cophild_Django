@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home {
+    max-width: 1200px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Optional: Add some padding */
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+  
+  .header {
+    background-color: white; /* White color for the header */
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for header */
+  }
+  
+  .logo {
+    height: 50px; /* Adjust logo size */
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Center align the nav list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    color: #003DA5; /* Blue color for the nav items */
+  }
+  
+  .nav-list li {
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-list li:hover {
+    background-color: #FFD700; /* Yellow color on hover */
+    color: #003DA5; /* Change text color on hover */
+  }
+  
+  .join-button {
+    background-color: #003DA5; /* Blue background */
+    color: white; /* White text */
+    border: 2px solid #FFD700; /* Yellow border */
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .join-button:hover {
+    background-color: #FFD700; /* Yellow background on hover */
+    color: #003DA5; /* Change text color on hover */
+  }
+  
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content h1 {
+    color: #003DA5; /* Blue color for the main heading */
+  }
+  
+  .content p {
+    color: #333; /* Darker text for paragraph for better readability */
+  }
+  

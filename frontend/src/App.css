@@ -1,16 +1,28 @@
-body {
-  margin: 0;
+.footer {
+  background-color: #282c34; /* Dark background for the footer */
+  padding: 20px;
+  position: relative; /* Positioning context for the footer */
+  bottom: 0; /* Fixes footer to bottom */
+  width: 100%; /* Full width */
 }
 
-
-.navbar {
-  height: 100px;
-  background-color: #333;
-  color: whitesmoke;
-  margin-bottom: 15px;
-  text-align: center;
-  font-size: 30px;
+.footer-nav {
+  list-style: none;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Center the navigation links */
+  padding: 0;
+}
+
+.footer-nav li {
+  margin: 0 15px; /* Space between nav items */
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #61dafb; /* Link color */
+  font-weight: bold; /* Bold text */
+}
+
+.footer-nav a:hover {
+  color: yellow; /* Change color on hover */
 }

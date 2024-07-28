@@ -5,7 +5,7 @@ from . models import *
 from . serializer import *
 from rest_framework import viewsets
 
-class SailorViewSet(viewset.ModelViewSet):
+class SailorViewSet(viewsets.ModelViewSet):
     queryset = Sailor.objects.all()
     serializer_class = SailorSerializer
 
@@ -39,7 +39,7 @@ class CommentViewSet(viewsets.ModelViewSet):
 
 class LikeViewSet(viewsets.ModelViewSet):
     queryset = Like.objects.all()
-    serializer_class = likeSerializer
+    serializer_class = LikeSerializer
 
 class ShareViewSet(viewsets.ModelViewSet):
     queryset = Share.objects.all()

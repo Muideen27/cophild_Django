@@ -21,6 +21,11 @@ class EducationSerializer(serializers.ModelSerializer):
         model = Education
         fields = '__all__'
 
+class ExperienceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Experience
+        fields = '__all__'
+
 class SkillSerializer(serializers.ModelSerializer):
     class Meta:
         model = Skill
